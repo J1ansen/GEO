@@ -1,0 +1,15 @@
+{
+  "name": "restaurant-geo-p0-browser",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24 <25" },
+  "packageManager": "pnpm@11.25.0",
+  "scripts": {
+    "doctor": "node src/cli.mjs doctor",
+    "test": "node --test --test-concurrency=1 test/*.test.mjs",
+    "lint": "node scripts/check.mjs",
+    "demo": "node src/cli.mjs demo"
+  },
+  "dependencies": { "playwright": "1.63.0" }
+}

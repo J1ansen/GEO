@@ -1,0 +1,10 @@
+餐厅 GEO 汇报思维导图
+
+1. 现场汇报：双击 HTML 文件，点击“开始讲解”，按六条主线逐节介绍；可全屏、缩放和拖动。
+2. 插入汇报材料：使用 PNG 图片；需要无损放大时使用 SVG。
+3. 编辑结构：在 Xmind 的“文件 → 导入 → FreeMind”中选择 .mm 文件，导入后另存为 .xmind；完整说明以可展开子主题保留。
+4. 汇报顺序：为什么做 → 目标 → 九项功能 → 功能协作 → 开源与自研 → 实施验收。
+5. 导图基于《餐厅GEO项目分析与第一版建设方案》，第一版功能与 240 样本是拟建计划，不代表已完成线上实测。
+
+Xmind 官方导入说明：https://xmind.com/zh-hans/user-guide/import-new
+FreeMind 文件格式说明：https://freemind.sourceforge.io/wiki/index.php/File_format

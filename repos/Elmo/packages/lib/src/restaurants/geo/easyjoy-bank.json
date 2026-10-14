@@ -1,0 +1,1135 @@
+{
+	"schema_version": "geo.question-bank.v1",
+	"id": "easyjoy-final-20261014",
+	"store_label": "Easy Joy · Mulberry St",
+	"source": {
+		"filename": "fyrdom+easy joy多平台GEO测试回答问题 最终版.xlsx",
+		"sha256": "2c0eee44a0c8458b5ceb8bdf8cc3d2e2de1c763026b3696e86046caff7d7c465",
+		"sheet": "意中人",
+		"identity_mapping_cell": "赢家!A9"
+	},
+	"questions": [
+		{
+			"id": "easyjoy-discovery-01",
+			"type": "discovery",
+			"language": "en",
+			"location": "New York City; exact area as worded in prompt",
+			"text": "What is the best all you can eat hot pot in Chinatown, Manhattan?",
+			"source_cells": ["意中人!B2", "意中人!B36", "意中人!B70", "意中人!B106"]
+		},
+		{
+			"id": "easyjoy-discovery-02",
+			"type": "discovery",
+			"language": "en",
+			"location": "New York City; exact area as worded in prompt",
+			"text": "What is the best all you can eat hot pot near me? I live in Chinatown, Manhattan",
+			"source_cells": ["意中人!B5", "意中人!B37", "意中人!B71", "意中人!B107"]
+		},
+		{
+			"id": "easyjoy-discovery-03",
+			"type": "discovery",
+			"language": "en",
+			"location": "New York City; exact area as worded in prompt",
+			"text": "Where can I take a group for all you can eat hot pot in Manhattan?",
+			"source_cells": ["意中人!B10", "意中人!B42", "意中人!B76", "意中人!B112"]
+		},
+		{
+			"id": "easyjoy-discovery-04",
+			"type": "discovery",
+			"language": "en",
+			"location": "New York City; exact area as worded in prompt",
+			"text": "What is the best all you can eat hot pot for a birthday dinner in NYC?",
+			"source_cells": ["意中人!B15", "意中人!B47", "意中人!B81", "意中人!B117"]
+		},
+		{
+			"id": "easyjoy-discovery-05",
+			"type": "discovery",
+			"language": "en",
+			"location": "New York City; exact area as worded in prompt",
+			"text": "Where can I find cheap all you can eat hot pot in Chinatown, Manhattan?",
+			"source_cells": ["意中人!B20", "意中人!B52", "意中人!B86", "意中人!B122"]
+		},
+		{
+			"id": "easyjoy-discovery-06",
+			"type": "discovery",
+			"language": "en",
+			"location": "New York City; exact area as worded in prompt",
+			"text": "What are some dim sum-friendly all you can eat hot pot places in NYC?",
+			"source_cells": ["意中人!B23", "意中人!B57", "意中人!B91", "意中人!B127"]
+		},
+		{
+			"id": "easyjoy-discovery-07",
+			"type": "discovery",
+			"language": "zh",
+			"location": "New York City; exact area as worded in prompt",
+			"text": "纽约唐人街哪家自助火锅好吃？",
+			"source_cells": ["意中人!B27", "意中人!B60", "意中人!B96", "意中人!B132"]
+		},
+		{
+			"id": "easyjoy-discovery-08",
+			"type": "discovery",
+			"language": "zh",
+			"location": "New York City; exact area as worded in prompt",
+			"text": "纽约适合朋友聚餐的自助火锅有哪些？",
+			"source_cells": ["意中人!B31", "意中人!B65", "意中人!B101", "意中人!B137"]
+		},
+		{
+			"id": "easyjoy-verify-address",
+			"type": "brand_verification",
+			"language": "en",
+			"location": "Mulberry Street, Chinatown, Manhattan, New York",
+			"text": "What is the current street address of Easy Joy (意中人), the Mulberry Street restaurant in Chinatown, Manhattan, New York? Please cite the source and distinguish any similarly named locations.",
+			"source_cells": [],
+			"origin": "operator_approved_supplement_2026-10-14"
+		},
+		{
+			"id": "easyjoy-verify-hours",
+			"type": "brand_verification",
+			"language": "en",
+			"location": "Mulberry Street, Chinatown, Manhattan, New York",
+			"text": "What are the current opening hours of Easy Joy (意中人) on Mulberry Street in Chinatown, Manhattan, New York? Please cite the source and state if special holiday hours are unknown.",
+			"source_cells": [],
+			"origin": "operator_approved_supplement_2026-10-14"
+		},
+		{
+			"id": "easyjoy-verify-reservation",
+			"type": "brand_verification",
+			"language": "en",
+			"location": "Mulberry Street, Chinatown, Manhattan, New York",
+			"text": "How can I make a reservation at Easy Joy (意中人) on Mulberry Street in Chinatown, Manhattan, New York? Please provide the official reservation link if available, cite the source, and say if you cannot verify it.",
+			"source_cells": [],
+			"origin": "operator_approved_supplement_2026-10-14"
+		}
+	],
+	"historical_observations": [
+		{
+			"question_id": "easyjoy-discovery-01",
+			"platform": "chatgpt",
+			"source_range": "意中人!A2:G4",
+			"reported_repeat": "1",
+			"reported_presence": "是 第三个",
+			"entries": [
+				{
+					"row": 2,
+					"reported_restaurant": "99 Favor Taste",
+					"source_links_text": "https://www.bestinhood.com/new-york/restaurant-types/best-buffet-restaurants-in-new-york/?utm_source=chatgpt.com"
+				},
+				{
+					"row": 3,
+					"reported_restaurant": "LaoJie Hotpot",
+					"source_links_text": "https://www.99favortaste.com/?utm_source=chatgpt.com"
+				},
+				{
+					"row": 4,
+					"reported_restaurant": "Easy Joy (Hot Pot, BBQ Skewers, Dim Sum) 意中人火锅烧烤点心",
+					"source_links_text": "https://www.corner.inc/place/pXfxs8NBaXA1?utm_source=chatgpt.com"
+				}
+			],
+			"evidence_status": "user_provided_conditions_unknown",
+			"observed_at": null,
+			"eligible_for_baseline": false
+		},
+		{
+			"question_id": "easyjoy-discovery-02",
+			"platform": "chatgpt",
+			"source_range": "意中人!A5:G9",
+			"reported_repeat": "1",
+			"reported_presence": "是 第三个",
+			"entries": [
+				{
+					"row": 5,
+					"reported_restaurant": "99 Favor Taste",
+					"source_links_text": "https://www.reddit.com/r/FoodNYC/comments/1szwgp6/good_ayce_hotpot/?utm_source=chatgpt.com"
+				},
+				{
+					"row": 6,
+					"reported_restaurant": "LaoJie Hotpot",
+					"source_links_text": "https://www.easyjoybuffet.com/?utm_source=chatgpt.com"
+				},
+				{
+					"row": 7,
+					"reported_restaurant": "Easy Joy (Hot Pot, BBQ Skewers, Dim Sum) 意中人火锅烧烤点心",
+					"source_links_text": ""
+				},
+				{
+					"row": 8,
+					"reported_restaurant": "Hou Yi Hot Pot",
+					"source_links_text": ""
+				},
+				{
+					"row": 9,
+					"reported_restaurant": "Hometown Hotpot",
+					"source_links_text": ""
+				}
+			],
+			"evidence_status": "user_provided_conditions_unknown",
+			"observed_at": null,
+			"eligible_for_baseline": false
+		},
+		{
+			"question_id": "easyjoy-discovery-03",
+			"platform": "chatgpt",
+			"source_range": "意中人!A10:G14",
+			"reported_repeat": "1",
+			"reported_presence": "是 第三个",
+			"entries": [
+				{
+					"row": 10,
+					"reported_restaurant": "99 Favor Taste",
+					"source_links_text": "https://welcometochinatown.com/guides/hotpot?utm_source=chatgpt.com"
+				},
+				{
+					"row": 11,
+					"reported_restaurant": "LaoJie Hotpot",
+					"source_links_text": "https://www.reddit.com/r/FoodNYC/comments/1qpr4nk/large_table_hot_pot_in_lower_manhattan/?utm_source=chatgpt.com"
+				},
+				{
+					"row": 12,
+					"reported_restaurant": "Easy Joy (Hot Pot, BBQ Skewers, Dim Sum) 意中人火锅烧烤点心",
+					"source_links_text": "https://www.theinfatuation.com/new-york/reviews/99-favor-taste-lower-east-side?utm_source=chatgpt.com"
+				},
+				{
+					"row": 13,
+					"reported_restaurant": "KPOT Korean BBQ & Hot Pot",
+					"source_links_text": ""
+				},
+				{
+					"row": 14,
+					"reported_restaurant": "The Dolar Shop Hot Pot Manhattan",
+					"source_links_text": ""
+				}
+			],
+			"evidence_status": "user_provided_conditions_unknown",
+			"observed_at": null,
+			"eligible_for_baseline": false
+		},
+		{
+			"question_id": "easyjoy-discovery-04",
+			"platform": "chatgpt",
+			"source_range": "意中人!A15:G19",
+			"reported_repeat": "1",
+			"reported_presence": "是 第三个",
+			"entries": [
+				{
+					"row": 15,
+					"reported_restaurant": "99 Favor Taste",
+					"source_links_text": "https://www.99favortaste.com/?utm_source=chatgpt.com"
+				},
+				{
+					"row": 16,
+					"reported_restaurant": "LaoJie Hotpot",
+					"source_links_text": "https://www.theinfatuation.com/new-york/guides/best-hot-pot-nyc?utm_source=chatgpt.com"
+				},
+				{
+					"row": 17,
+					"reported_restaurant": "Easy Joy (Hot Pot, BBQ Skewers, Dim Sum) 意中人火锅烧烤点心",
+					"source_links_text": "https://www.reddit.com/r/FoodNYC/comments/1szwgp6/good_ayce_hotpot/?utm_source=chatgpt.com"
+				},
+				{
+					"row": 18,
+					"reported_restaurant": "The Dolar Shop Hot Pot Manhattan",
+					"source_links_text": ""
+				},
+				{
+					"row": 19,
+					"reported_restaurant": "KPOT Korean BBQ & Hot Pot",
+					"source_links_text": ""
+				}
+			],
+			"evidence_status": "user_provided_conditions_unknown",
+			"observed_at": null,
+			"eligible_for_baseline": false
+		},
+		{
+			"question_id": "easyjoy-discovery-05",
+			"platform": "chatgpt",
+			"source_range": "意中人!A20:G22",
+			"reported_repeat": "1",
+			"reported_presence": "是 第一个",
+			"entries": [
+				{
+					"row": 20,
+					"reported_restaurant": "Easy Joy (Hot Pot, BBQ Skewers, Dim Sum) 意中人火锅烧烤点心",
+					"source_links_text": "https://www.reddit.com/r/FoodNYC/comments/1wmlr4l/best_all_you_can_eat_hot_pot_in_manhattan_or_lic/?utm_source=chatgpt.com"
+				},
+				{
+					"row": 21,
+					"reported_restaurant": "99 Favor Taste",
+					"source_links_text": "https://www.reddit.com/r/FoodNYC/comments/1wmlr4l/best_all_you_can_eat_hot_pot_in_manhattan_or_lic/?utm_source=chatgpt.com"
+				},
+				{
+					"row": 22,
+					"reported_restaurant": "LaoJie Hotpot",
+					"source_links_text": ""
+				}
+			],
+			"evidence_status": "user_provided_conditions_unknown",
+			"observed_at": null,
+			"eligible_for_baseline": false
+		},
+		{
+			"question_id": "easyjoy-discovery-06",
+			"platform": "chatgpt",
+			"source_range": "意中人!A23:G26",
+			"reported_repeat": "1",
+			"reported_presence": "是 第一个",
+			"entries": [
+				{
+					"row": 23,
+					"reported_restaurant": "Easy Joy (Hot Pot, BBQ Skewers, Dim Sum) 意中人火锅烧烤点心",
+					"source_links_text": "https://www.easyjoybuffet.com/?utm_source=chatgpt.com"
+				},
+				{
+					"row": 24,
+					"reported_restaurant": "99 Favor Taste",
+					"source_links_text": ""
+				},
+				{
+					"row": 25,
+					"reported_restaurant": "LaoJie Hotpot",
+					"source_links_text": ""
+				},
+				{
+					"row": 26,
+					"reported_restaurant": "Hou Yi",
+					"source_links_text": ""
+				}
+			],
+			"evidence_status": "user_provided_conditions_unknown",
+			"observed_at": null,
+			"eligible_for_baseline": false
+		},
+		{
+			"question_id": "easyjoy-discovery-07",
+			"platform": "chatgpt",
+			"source_range": "意中人!A27:G30",
+			"reported_repeat": "1",
+			"reported_presence": "是 第三个",
+			"entries": [
+				{
+					"row": 27,
+					"reported_restaurant": "LaoJie Hotpot",
+					"source_links_text": "https://ny.eater.com/maps/best-all-you-can-eat-restaurants-nyc?utm_source=chatgpt.com"
+				},
+				{
+					"row": 28,
+					"reported_restaurant": "99 Favor Taste",
+					"source_links_text": "https://www.corner.inc/place/pXfxs8NBaXA1?utm_source=chatgpt.com"
+				},
+				{
+					"row": 29,
+					"reported_restaurant": "Easy Joy (Hot Pot, BBQ Skewers, Dim Sum) 意中人火锅烧烤点心",
+					"source_links_text": ""
+				},
+				{
+					"row": 30,
+					"reported_restaurant": "Dolar Shop",
+					"source_links_text": ""
+				}
+			],
+			"evidence_status": "user_provided_conditions_unknown",
+			"observed_at": null,
+			"eligible_for_baseline": false
+		},
+		{
+			"question_id": "easyjoy-discovery-08",
+			"platform": "chatgpt",
+			"source_range": "意中人!A31:G35",
+			"reported_repeat": "1",
+			"reported_presence": "是 第三个",
+			"entries": [
+				{
+					"row": 31,
+					"reported_restaurant": "99 Favor Taste",
+					"source_links_text": "https://www.reddit.com/r/FoodNYC/comments/1wmlr4l/best_all_you_can_eat_hot_pot_in_manhattan_or_lic/?utm_source=chatgpt.com"
+				},
+				{
+					"row": 32,
+					"reported_restaurant": "LaoJie Hotpot",
+					"source_links_text": ""
+				},
+				{
+					"row": 33,
+					"reported_restaurant": "Easy Joy (Hot Pot, BBQ Skewers, Dim Sum) 意中人火锅烧烤点心",
+					"source_links_text": ""
+				},
+				{
+					"row": 34,
+					"reported_restaurant": "KPOT Korean BBQ & Hot Pot",
+					"source_links_text": ""
+				},
+				{
+					"row": 35,
+					"reported_restaurant": "The Dolar Shop Hot Pot Manhattan",
+					"source_links_text": ""
+				}
+			],
+			"evidence_status": "user_provided_conditions_unknown",
+			"observed_at": null,
+			"eligible_for_baseline": false
+		},
+		{
+			"question_id": "easyjoy-discovery-01",
+			"platform": "deepseek",
+			"source_range": "意中人!A36:G36",
+			"reported_repeat": "1",
+			"reported_presence": "否",
+			"entries": [
+				{
+					"row": 36,
+					"reported_restaurant": "LaoJie Hotpot\n99 Favor Taste\nHometown Hotpot & BBQ\nFunny BBQ 98\nThe Dolar Shop",
+					"source_links_text": "https://sagemenu.com/new-york/laojie-hotpot-manhattan-new-york/\nhttps://www.99favortaste.com/\nhttps://hometownhotpot.com/\nhttps://funnybbq98ny.com/\nhttps://www.thedolarshop.com/"
+				}
+			],
+			"evidence_status": "user_provided_conditions_unknown",
+			"observed_at": null,
+			"eligible_for_baseline": false
+		},
+		{
+			"question_id": "easyjoy-discovery-02",
+			"platform": "deepseek",
+			"source_range": "意中人!A37:G41",
+			"reported_repeat": "1",
+			"reported_presence": "否",
+			"entries": [
+				{
+					"row": 37,
+					"reported_restaurant": "LaoJie Hotpot (老街火锅)",
+					"source_links_text": "https://happy-hour.nyc/deals/best-hot-pot-nyc"
+				},
+				{
+					"row": 38,
+					"reported_restaurant": "99 Favor Taste (九十九号餐厅)",
+					"source_links_text": "https://www.dealmoon.cn/post/3212606"
+				},
+				{
+					"row": 39,
+					"reported_restaurant": "Hou Yi Hot Pot",
+					"source_links_text": ""
+				},
+				{
+					"row": 40,
+					"reported_restaurant": "Hometown Hotpot & BBQ",
+					"source_links_text": ""
+				},
+				{
+					"row": 41,
+					"reported_restaurant": "Funny BBQ 98 (聚点串吧)",
+					"source_links_text": ""
+				}
+			],
+			"evidence_status": "user_provided_conditions_unknown",
+			"observed_at": null,
+			"eligible_for_baseline": false
+		},
+		{
+			"question_id": "easyjoy-discovery-03",
+			"platform": "deepseek",
+			"source_range": "意中人!A42:G46",
+			"reported_repeat": "1",
+			"reported_presence": "否",
+			"entries": [
+				{
+					"row": 42,
+					"reported_restaurant": "LaoJie Hotpot (老街火锅)",
+					"source_links_text": "https://chat.deepseek.com/a/chat/s/13a68279-a522-432e-9ab4-37b838ff9fcd"
+				},
+				{
+					"row": 43,
+					"reported_restaurant": "99 Favor Taste (九十九号餐厅)",
+					"source_links_text": "https://www.villagevoice.com/navigating-the-wonderful-world-of-99-favor-taste/#1"
+				},
+				{
+					"row": 44,
+					"reported_restaurant": "Hou Yi Hot Pot",
+					"source_links_text": "https://www.lemon8-app.com/@eat.feast.repeat/7470927016196538926?region=us"
+				},
+				{
+					"row": 45,
+					"reported_restaurant": "Hometown Hotpot & BBQ",
+					"source_links_text": ""
+				},
+				{
+					"row": 46,
+					"reported_restaurant": "Funny BBQ 98 (聚点串吧)",
+					"source_links_text": ""
+				}
+			],
+			"evidence_status": "user_provided_conditions_unknown",
+			"observed_at": null,
+			"eligible_for_baseline": false
+		},
+		{
+			"question_id": "easyjoy-discovery-04",
+			"platform": "deepseek",
+			"source_range": "意中人!A47:G51",
+			"reported_repeat": "1",
+			"reported_presence": "是 第9个",
+			"entries": [
+				{
+					"row": 47,
+					"reported_restaurant": "LaoJie Hotpot (老街火锅)",
+					"source_links_text": "https://nycwff.org/personality/vertex-hospitality-group-kpot-midtown/"
+				},
+				{
+					"row": 48,
+					"reported_restaurant": "99 Favor Taste (九十九号餐厅)",
+					"source_links_text": "https://wanderlog.com/zh/place/details/1501318/99-favor-taste#1"
+				},
+				{
+					"row": 49,
+					"reported_restaurant": "KPOT Midtown",
+					"source_links_text": ""
+				},
+				{
+					"row": 50,
+					"reported_restaurant": "Hometown Hotpot & BBQ",
+					"source_links_text": ""
+				},
+				{
+					"row": 51,
+					"reported_restaurant": "Little Sheep Mongolian",
+					"source_links_text": ""
+				}
+			],
+			"evidence_status": "user_provided_conditions_unknown",
+			"observed_at": null,
+			"eligible_for_baseline": false
+		},
+		{
+			"question_id": "easyjoy-discovery-05",
+			"platform": "deepseek",
+			"source_range": "意中人!A52:G56",
+			"reported_repeat": "1",
+			"reported_presence": "否",
+			"entries": [
+				{
+					"row": 52,
+					"reported_restaurant": "LaoJie Hotpot (老街火锅)",
+					"source_links_text": "https://www.sluurpy.com/fr/flushing/restaurant/3600971/mister-hotpot#1"
+				},
+				{
+					"row": 53,
+					"reported_restaurant": "99 Favor Taste (九十九号餐厅)",
+					"source_links_text": "https://www.corner.inc/place/pMBgGxqXhgMk"
+				},
+				{
+					"row": 54,
+					"reported_restaurant": "KPOT Midtown",
+					"source_links_text": "https://www.postcard.inc/places/xi-yue-hui-hot-pot-new-york-wZW24XLQTKJ#hours#1"
+				},
+				{
+					"row": 55,
+					"reported_restaurant": "Sichuan Hot Pot Cuisine",
+					"source_links_text": ""
+				},
+				{
+					"row": 56,
+					"reported_restaurant": "Xi Yue Hui Hot Pot",
+					"source_links_text": ""
+				}
+			],
+			"evidence_status": "user_provided_conditions_unknown",
+			"observed_at": null,
+			"eligible_for_baseline": false
+		},
+		{
+			"question_id": "easyjoy-discovery-06",
+			"platform": "deepseek",
+			"source_range": "意中人!A57:G59",
+			"reported_repeat": "1",
+			"reported_presence": "是 第一个",
+			"entries": [
+				{
+					"row": 57,
+					"reported_restaurant": "Easy Joy Dim Sum & AYCE Hot Pot",
+					"source_links_text": "https://www.ubereats.com/us-ko/store/easy-joy-dim-sum-hot-pot-buffet-"
+				},
+				{
+					"row": 58,
+					"reported_restaurant": "37 Xiang Seafood Hot Pot Restaurant",
+					"source_links_text": "https://www.yelp.ca/biz/easy-joy-dim-sum-and-ayce-hot-pot-new-york#1"
+				},
+				{
+					"row": 59,
+					"reported_restaurant": "99 Favor Taste",
+					"source_links_text": "https://www.yelp.com/best/hotpot/new-york#1"
+				}
+			],
+			"evidence_status": "user_provided_conditions_unknown",
+			"observed_at": null,
+			"eligible_for_baseline": false
+		},
+		{
+			"question_id": "easyjoy-discovery-07",
+			"platform": "deepseek",
+			"source_range": "意中人!A60:G64",
+			"reported_repeat": "1",
+			"reported_presence": "无",
+			"entries": [
+				{
+					"row": 60,
+					"reported_restaurant": "LaoJie Hotpot (老街火锅)",
+					"source_links_text": "https://www.tripadvisor.com.au/Restaurant_Review-g60763-d11500490-Reviews-Hometown_Hotpot_BBQ-New_York_City_New_York.html#REVIEWS"
+				},
+				{
+					"row": 61,
+					"reported_restaurant": "99 Favor Taste (九十九号餐厅)",
+					"source_links_text": "https://www.lemon8-app.com/@eat.feast.repeat/7470927016196538926?region=us"
+				},
+				{
+					"row": 62,
+					"reported_restaurant": "Hou Yi Hot Pot",
+					"source_links_text": ""
+				},
+				{
+					"row": 63,
+					"reported_restaurant": "Hometown Hotpot & BBQ",
+					"source_links_text": ""
+				},
+				{
+					"row": 64,
+					"reported_restaurant": "Gangnam BBQ & Hot Pot",
+					"source_links_text": ""
+				}
+			],
+			"evidence_status": "user_provided_conditions_unknown",
+			"observed_at": null,
+			"eligible_for_baseline": false
+		},
+		{
+			"question_id": "easyjoy-discovery-08",
+			"platform": "deepseek",
+			"source_range": "意中人!A65:G69",
+			"reported_repeat": "1",
+			"reported_presence": "无",
+			"entries": [
+				{
+					"row": 65,
+					"reported_restaurant": "LaoJie Hotpot (老街火锅)",
+					"source_links_text": "https://www.dealmoon.com/post/3252411"
+				},
+				{
+					"row": 66,
+					"reported_restaurant": "99 Favor Taste (九十九号餐厅)",
+					"source_links_text": "https://www.dealmoon.cn/post/2398753"
+				},
+				{
+					"row": 67,
+					"reported_restaurant": "KPOT Midtown",
+					"source_links_text": "https://www.sohu.com/a/873811745_570646#1"
+				},
+				{
+					"row": 68,
+					"reported_restaurant": "Sichuan Hot Pot Cuisine",
+					"source_links_text": ""
+				},
+				{
+					"row": 69,
+					"reported_restaurant": "Xi Yue Hui Hot Pot",
+					"source_links_text": ""
+				}
+			],
+			"evidence_status": "user_provided_conditions_unknown",
+			"observed_at": null,
+			"eligible_for_baseline": false
+		},
+		{
+			"question_id": "easyjoy-discovery-01",
+			"platform": "doubao",
+			"source_range": "意中人!A70:G70",
+			"reported_repeat": "1",
+			"reported_presence": "无",
+			"entries": [
+				{
+					"row": 70,
+					"reported_restaurant": "1. LaoJie Hotpot Manhattan\n2. 99 Favor Taste\n3. Hou Yi Hot Pot\n4. Hometown Hotpot & BBQ\n5. Zhang Liang Hot Pot",
+					"source_links_text": "1. [https://restaurantedroop.com/restaurants-near-me/laojie-hotpot-manhattan](https://restaurantedroop.com/restaurants-near-me/laojie-hotpot-manhattan)\n2. [https://www.postcard.inc/places/99-favor-taste-new-york-oseweCkrYL_](https://www.postcard.inc/places/99-favor-taste-new-york-oseweCkrYL_)\n3. [https://hou-yi-hot-pot.com/](https://hou-yi-hot-pot.com/)\n4. [https://hometown-hotpot-bbq.res-discover.com/](https://hometown-hotpot-bbq.res-discover.com/)\n5. [https://zhang-liang-hot-pot.foodjoyy.com/](https://zhang-liang-hot-pot.foodjoyy.com/)"
+				}
+			],
+			"evidence_status": "user_provided_conditions_unknown",
+			"observed_at": null,
+			"eligible_for_baseline": false
+		},
+		{
+			"question_id": "easyjoy-discovery-02",
+			"platform": "doubao",
+			"source_range": "意中人!A71:G75",
+			"reported_repeat": "1",
+			"reported_presence": "无",
+			"entries": [
+				{
+					"row": 71,
+					"reported_restaurant": "1. **LaoJie Hotpot Manhattan** ⭐ Top pick (105 Bowery)\n2. **99 Favor Taste** (285 Grand St)\n3. **Hou Yi Hot Pot** (92 Hester St)\n4. **Hometown Hotpot & BBQ** (Chinatown)\n5. **Zhang Liang Hot Pot** (Chinatown)",
+					"source_links_text": "1. [https://restaurantedroop.com/restaurants-near-me/laojie-hotpot-manhattan](https://restaurantedroop.com/restaurants-near-me/laojie-hotpot-manhattan)\n2. [https://www.postcard.inc/places/99-favor-taste-new-york-oseweCkrYL_](https://www.postcard.inc/places/99-favor-taste-new-york-oseweCkrYL_)\n3. [https://hou-yi-hot-pot.com/](https://hou-yi-hot-pot.com/)\n4. [https://hometown-hotpot-bbq.res-discover.com/](https://hometown-hotpot-bbq.res-discover.com/)\n5. [https://zhang-liang-hot-pot.foodjoyy.com/](https://zhang-liang-hot-pot.foodjoyy.com/)"
+				}
+			],
+			"evidence_status": "user_provided_conditions_unknown",
+			"observed_at": null,
+			"eligible_for_baseline": false
+		},
+		{
+			"question_id": "easyjoy-discovery-03",
+			"platform": "doubao",
+			"source_range": "意中人!A76:G80",
+			"reported_repeat": "1",
+			"reported_presence": "无",
+			"entries": [
+				{
+					"row": 76,
+					"reported_restaurant": "1. **99 Favor Taste** ⭐ Best for large groups (285 Grand St, Chinatown)\n2. **Hometown Hotpot & BBQ** (Chinatown)\n3. **LaoJie Hotpot Manhattan** (105 Bowery, Chinatown)\n4. **Hou Yi Hot Pot** (92 Hester St, Chinatown)",
+					"source_links_text": "1. [https://www.postcard.inc/places/99-favor-taste-new-york-oseweCkrYL_](https://www.postcard.inc/places/99-favor-taste-new-york-oseweCkrYL_)\n2. [https://hometown-hotpot-bbq.localoria.com/](https://hometown-hotpot-bbq.localoria.com/)\n3. [https://restaurantedroop.com/restaurants-near-me/laojie-hotpot-manhattan](https://restaurantedroop.com/restaurants-near-me/laojie-hotpot-manhattan)\n4. [https://hou-yi-hot-pot.com/](https://hou-yi-hot-pot.com/)"
+				}
+			],
+			"evidence_status": "user_provided_conditions_unknown",
+			"observed_at": null,
+			"eligible_for_baseline": false
+		},
+		{
+			"question_id": "easyjoy-discovery-04",
+			"platform": "doubao",
+			"source_range": "意中人!A81:G85",
+			"reported_repeat": "1",
+			"reported_presence": "无",
+			"entries": [
+				{
+					"row": 81,
+					"reported_restaurant": "1. 99 Favor Taste\n2. Hometown Hotpot & BBQ\n3. LaoJie Hotpot Manhattan\n4. Hou Yi Hot Pot\n5. Zhang Liang Hot Pot",
+					"source_links_text": "1. [https://www.99favortaste.com/](https://www.99favortaste.com/)\n2. [https://hometown-hotpot-bbq.localoria.com/](https://hometown-hotpot-bbq.localoria.com/)\n3. [https://restaurantedroop.com/restaurants-near-me/laojie-hotpot-manhattan](https://restaurantedroop.com/restaurants-near-me/laojie-hotpot-manhattan)\n4. [https://hou-yi-hot-pot.com/](https://hou-yi-hot-pot.com/)\n5. [https://zhang-liang-hot-pot.foodjoyy.com/](https://zhang-liang-hot-pot.foodjoyy.com/)"
+				}
+			],
+			"evidence_status": "user_provided_conditions_unknown",
+			"observed_at": null,
+			"eligible_for_baseline": false
+		},
+		{
+			"question_id": "easyjoy-discovery-05",
+			"platform": "doubao",
+			"source_range": "意中人!A86:G90",
+			"reported_repeat": "1",
+			"reported_presence": "无",
+			"entries": [
+				{
+					"row": 86,
+					"reported_restaurant": "LaoJie Hotpot Manhattan",
+					"source_links_text": "https://frankiapp.com/business/laojie-hotpot-manhattan-36618"
+				},
+				{
+					"row": 87,
+					"reported_restaurant": "99 Favor Taste",
+					"source_links_text": "https://www.postcard.inc/places/99-favor-taste-new-york-oseweCkrYL_"
+				},
+				{
+					"row": 88,
+					"reported_restaurant": "Hou Yi Hot Pot",
+					"source_links_text": "https://hou-yi-hot-pot.res-pick.com/"
+				},
+				{
+					"row": 89,
+					"reported_restaurant": "Zhang Liang Hot Pot",
+					"source_links_text": "https://zhang-liang-hot-pot.foodjoyy.com/"
+				},
+				{
+					"row": 90,
+					"reported_restaurant": "Hometown Hotpot & BBQ",
+					"source_links_text": "https://hometown-hotpot-bbq.localoria.com/"
+				}
+			],
+			"evidence_status": "user_provided_conditions_unknown",
+			"observed_at": null,
+			"eligible_for_baseline": false
+		},
+		{
+			"question_id": "easyjoy-discovery-06",
+			"platform": "doubao",
+			"source_range": "意中人!A91:G95",
+			"reported_repeat": "1",
+			"reported_presence": "有",
+			"entries": [
+				{
+					"row": 91,
+					"reported_restaurant": "Easy Joy Dim Sum & AYCE Hot Pot ⭐ (145 Mulberry St, Chinatown)",
+					"source_links_text": "https://www.easyjoybuffet.com/"
+				},
+				{
+					"row": 92,
+					"reported_restaurant": "37 Xiang Seafood Hot Pot (Flushing, New World Mall)",
+					"source_links_text": "https://www.postcard.inc/places/the-37-xiang-sea-food-hot-pot-buffet-new-york"
+				},
+				{
+					"row": 93,
+					"reported_restaurant": "Xiang Hotpot (Brooklyn)",
+					"source_links_text": "https://xiang-hotpot-brooklyn.wherevi.com/"
+				},
+				{
+					"row": 94,
+					"reported_restaurant": "Spring Shabu-Shabu (Flushing)",
+					"source_links_text": "https://wanderlog.com/list/geoCategory/16084/where-to-eat-the-best-buffet-in-new-york-city"
+				},
+				{
+					"row": 95,
+					"reported_restaurant": "LaoJie Hotpot Manhattan (105 Bowery, Chinatown)",
+					"source_links_text": "https://frankiapp.com/business/laojie-hotpot-manhattan-36618"
+				}
+			],
+			"evidence_status": "user_provided_conditions_unknown",
+			"observed_at": null,
+			"eligible_for_baseline": false
+		},
+		{
+			"question_id": "easyjoy-discovery-07",
+			"platform": "doubao",
+			"source_range": "意中人!A96:G100",
+			"reported_repeat": "1",
+			"reported_presence": "有",
+			"entries": [
+				{
+					"row": 96,
+					"reported_restaurant": "LaoJie Hotpot Manhattan",
+					"source_links_text": "https://restaurantedroop.com/restaurants-near-me/laojie-hotpot-manhattan"
+				},
+				{
+					"row": 97,
+					"reported_restaurant": "99 Favor Taste",
+					"source_links_text": "https://www.postcard.inc/places/99-favor-taste-new-york-oseweCkrYL_"
+				},
+				{
+					"row": 98,
+					"reported_restaurant": "Easy Joy Dim Sum & AYCE Hot Pot",
+					"source_links_text": "https://www.easyjoybuffet.com/"
+				},
+				{
+					"row": 99,
+					"reported_restaurant": "Hou Yi Hot Pot",
+					"source_links_text": "https://hou-yi-hot-pot.com/"
+				},
+				{
+					"row": 100,
+					"reported_restaurant": "Hometown Hotpot & BBQ",
+					"source_links_text": "https://hometown-hotpot-bbq.localoria.com/"
+				}
+			],
+			"evidence_status": "user_provided_conditions_unknown",
+			"observed_at": null,
+			"eligible_for_baseline": false
+		},
+		{
+			"question_id": "easyjoy-discovery-08",
+			"platform": "doubao",
+			"source_range": "意中人!A101:G105",
+			"reported_repeat": "1",
+			"reported_presence": "有",
+			"entries": [
+				{
+					"row": 101,
+					"reported_restaurant": "99 Favor Taste",
+					"source_links_text": "https://www.postcard.inc/places/99-favor-taste-new-york-oseweCkrYL_"
+				},
+				{
+					"row": 102,
+					"reported_restaurant": "Hometown Hotpot & BBQ",
+					"source_links_text": "https://hometown-hotpot-bbq.localoria.com/"
+				},
+				{
+					"row": 103,
+					"reported_restaurant": "LaoJie Hotpot Manhattan",
+					"source_links_text": "https://restaurantedroop.com/restaurants-near-me/laojie-hotpot-manhattan"
+				},
+				{
+					"row": 104,
+					"reported_restaurant": "Easy Joy Dim Sum & AYCE Hot Pot",
+					"source_links_text": "https://www.easyjoybuffet.com/"
+				},
+				{
+					"row": 105,
+					"reported_restaurant": "Hou Yi Hot Pot",
+					"source_links_text": "https://hou-yi-hot-pot.com/"
+				}
+			],
+			"evidence_status": "user_provided_conditions_unknown",
+			"observed_at": null,
+			"eligible_for_baseline": false
+		},
+		{
+			"question_id": "easyjoy-discovery-01",
+			"platform": "gemini",
+			"source_range": "意中人!A106:G106",
+			"reported_repeat": "1",
+			"reported_presence": "有",
+			"entries": [
+				{
+					"row": 106,
+					"reported_restaurant": "Easy Joy Dim Sum & AYCE Hot Pot\n\n99 Favor Taste\n\nHappy Lamb Hot Pot\n\nLaojie Hot Pot\n\nHou Yi Hot Pot",
+					"source_links_text": "https://www.easyjoybuffet.com/\n\nhttps://www.99favortaste.com/\n\nhttps://happylambhotpot.com/\n\nhttps://www.laojiehotpotny.com/\n\nhttps://hou-yi-hot-pot.com/"
+				}
+			],
+			"evidence_status": "user_provided_conditions_unknown",
+			"observed_at": null,
+			"eligible_for_baseline": false
+		},
+		{
+			"question_id": "easyjoy-discovery-02",
+			"platform": "gemini",
+			"source_range": "意中人!A107:G111",
+			"reported_repeat": "1",
+			"reported_presence": "有",
+			"entries": [
+				{
+					"row": 107,
+					"reported_restaurant": "Easy Joy Dim Sum & AYCE Hot Pot\n99 Favor Taste\nHappy Lamb Hot Pot\nLaojie Hot Pot\nHou Yi Hot Pot",
+					"source_links_text": "https://www.easyjoybuffet.com/"
+				},
+				{
+					"row": 108,
+					"reported_restaurant": "",
+					"source_links_text": "https://www.99favortaste.com/"
+				},
+				{
+					"row": 109,
+					"reported_restaurant": "",
+					"source_links_text": "https://happylambhotpot.com/"
+				},
+				{
+					"row": 110,
+					"reported_restaurant": "",
+					"source_links_text": "https://www.laojiehotpotny.com/"
+				},
+				{
+					"row": 111,
+					"reported_restaurant": "",
+					"source_links_text": "https://hou-yi-hot-pot.com/"
+				}
+			],
+			"evidence_status": "user_provided_conditions_unknown",
+			"observed_at": null,
+			"eligible_for_baseline": false
+		},
+		{
+			"question_id": "easyjoy-discovery-03",
+			"platform": "gemini",
+			"source_range": "意中人!A112:G116",
+			"reported_repeat": "1",
+			"reported_presence": "有",
+			"entries": [
+				{
+					"row": 112,
+					"reported_restaurant": "99 Favor Taste",
+					"source_links_text": "https://www.99favortaste.com/"
+				},
+				{
+					"row": 113,
+					"reported_restaurant": "Easy Joy Dim Sum & AYCE Hot Pot",
+					"source_links_text": "https://www.easyjoybuffet.com/"
+				},
+				{
+					"row": 114,
+					"reported_restaurant": "Happy Lamb Hot Pot",
+					"source_links_text": "https://happylambhotpot.com/"
+				},
+				{
+					"row": 115,
+					"reported_restaurant": "Laojie Hot Pot",
+					"source_links_text": "https://www.laojiehotpotny.com/"
+				},
+				{
+					"row": 116,
+					"reported_restaurant": "Hou Yi Hot Pot",
+					"source_links_text": "https://hou-yi-hot-pot.com/"
+				}
+			],
+			"evidence_status": "user_provided_conditions_unknown",
+			"observed_at": null,
+			"eligible_for_baseline": false
+		},
+		{
+			"question_id": "easyjoy-discovery-04",
+			"platform": "gemini",
+			"source_range": "意中人!A117:G121",
+			"reported_repeat": "1",
+			"reported_presence": "有",
+			"entries": [
+				{
+					"row": 117,
+					"reported_restaurant": "99 Favor Taste",
+					"source_links_text": "https://www.99favortaste.com/\nhttps://www.easyjoybuffet.com/\nhttps://happylambhotpot.com/\nhttps://www.laojiehotpotny.com/\nhttps://hou-yi-hot-pot.com/"
+				},
+				{
+					"row": 118,
+					"reported_restaurant": "easy Joy Dim Sum & AYCE Hot Pot",
+					"source_links_text": "https://www.easyjoybuffet.com/"
+				},
+				{
+					"row": 119,
+					"reported_restaurant": "Happy Lamb Hot Pot",
+					"source_links_text": "https://happylambhotpot.com/"
+				},
+				{
+					"row": 120,
+					"reported_restaurant": "Laojie Hot Pot",
+					"source_links_text": "https://www.laojiehotpotny.com/"
+				},
+				{
+					"row": 121,
+					"reported_restaurant": "Hou Yi Hot Pot",
+					"source_links_text": "https://hou-yi-hot-pot.com/"
+				}
+			],
+			"evidence_status": "user_provided_conditions_unknown",
+			"observed_at": null,
+			"eligible_for_baseline": false
+		},
+		{
+			"question_id": "easyjoy-discovery-05",
+			"platform": "gemini",
+			"source_range": "意中人!A122:G126",
+			"reported_repeat": "1",
+			"reported_presence": "有",
+			"entries": [
+				{
+					"row": 122,
+					"reported_restaurant": "Hou Yi Hot Pot",
+					"source_links_text": "https://hou-yi-hot-pot.com/"
+				},
+				{
+					"row": 123,
+					"reported_restaurant": "Easy Joy Dim Sum & AYCE Hot Pot",
+					"source_links_text": "https://www.easyjoybuffet.com/"
+				},
+				{
+					"row": 124,
+					"reported_restaurant": "Laojie Hot Pot",
+					"source_links_text": "https://www.laojiehotpotny.com/"
+				},
+				{
+					"row": 125,
+					"reported_restaurant": "99 Favor Taste",
+					"source_links_text": "https://www.99favortaste.com/"
+				},
+				{
+					"row": 126,
+					"reported_restaurant": "Happy Lamb Hot Pot",
+					"source_links_text": "https://happylambhotpot.com/"
+				}
+			],
+			"evidence_status": "user_provided_conditions_unknown",
+			"observed_at": null,
+			"eligible_for_baseline": false
+		},
+		{
+			"question_id": "easyjoy-discovery-06",
+			"platform": "gemini",
+			"source_range": "意中人!A127:G131",
+			"reported_repeat": "1",
+			"reported_presence": "有",
+			"entries": [
+				{
+					"row": 127,
+					"reported_restaurant": "Easy Joy Dim Sum & AYCE Hot Pot",
+					"source_links_text": "https://www.easyjoybuffet.com/"
+				},
+				{
+					"row": 128,
+					"reported_restaurant": "Laojie Hot Pot",
+					"source_links_text": "https://www.laojiehotpotny.com/"
+				},
+				{
+					"row": 129,
+					"reported_restaurant": "Spring Shabu-Shabu",
+					"source_links_text": "https://www.springshabu.com/"
+				},
+				{
+					"row": 130,
+					"reported_restaurant": "99 Favor Taste",
+					"source_links_text": "https://www.99favortaste.com/"
+				},
+				{
+					"row": 131,
+					"reported_restaurant": "Hou Yi Hot Pot",
+					"source_links_text": "https://hou-yi-hot-pot.com/"
+				}
+			],
+			"evidence_status": "user_provided_conditions_unknown",
+			"observed_at": null,
+			"eligible_for_baseline": false
+		},
+		{
+			"question_id": "easyjoy-discovery-07",
+			"platform": "gemini",
+			"source_range": "意中人!A132:G136",
+			"reported_repeat": "1",
+			"reported_presence": "有",
+			"entries": [
+				{
+					"row": 132,
+					"reported_restaurant": "Easy Joy Dim Sum & AYCE Hot Pot",
+					"source_links_text": "https://www.easyjoybuffet.com/"
+				},
+				{
+					"row": 133,
+					"reported_restaurant": "99 Favor Taste",
+					"source_links_text": "https://www.99favortaste.com/"
+				},
+				{
+					"row": 134,
+					"reported_restaurant": "Happy Lamb Hot Pot",
+					"source_links_text": "https://happylambhotpot.com/"
+				},
+				{
+					"row": 135,
+					"reported_restaurant": "Laojie Hot Pot",
+					"source_links_text": "https://www.laojiehotpotny.com/"
+				},
+				{
+					"row": 136,
+					"reported_restaurant": "Hou Yi Hot Pot",
+					"source_links_text": "https://hou-yi-hot-pot.com/"
+				}
+			],
+			"evidence_status": "user_provided_conditions_unknown",
+			"observed_at": null,
+			"eligible_for_baseline": false
+		},
+		{
+			"question_id": "easyjoy-discovery-08",
+			"platform": "gemini",
+			"source_range": "意中人!A137:G141",
+			"reported_repeat": "1",
+			"reported_presence": "有",
+			"entries": [
+				{
+					"row": 137,
+					"reported_restaurant": "99 Favor Taste",
+					"source_links_text": "https://www.99favortaste.com/"
+				},
+				{
+					"row": 138,
+					"reported_restaurant": "Easy Joy Dim Sum & AYCE Hot Pot",
+					"source_links_text": "https://www.easyjoybuffet.com/"
+				},
+				{
+					"row": 139,
+					"reported_restaurant": "Spring Shabu-Shabu",
+					"source_links_text": "https://www.springshabu.com/"
+				},
+				{
+					"row": 140,
+					"reported_restaurant": "Laojie Hot Pot",
+					"source_links_text": "https://www.laojiehotpotny.com/"
+				},
+				{
+					"row": 141,
+					"reported_restaurant": "Hou Yi Hot Pot",
+					"source_links_text": "https://hou-yi-hot-pot.com/"
+				}
+			],
+			"evidence_status": "user_provided_conditions_unknown",
+			"observed_at": null,
+			"eligible_for_baseline": false
+		}
+	],
+	"limitations": [
+		"Historical observations have unknown dates, account conditions and modes; excluded from current baseline.",
+		"Source links are citations, not full original answers or conversation evidence.",
+		"Original wording and languages retained, including dim sum-friendly."
+	]
+}

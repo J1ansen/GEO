@@ -1,0 +1,26 @@
+# Local credentials, sessions, dependencies and generated data
+.env
+.env.*
+!.env.example
+!.env.sample
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+.geo-python/
+.test-python/
+.georank-venv/
+.local-test-secrets/
+private/
+profiles/
+profiles-fixture/
+runs/
+.test-output/
+.restaurant-test/
+.restaurant-backups/
+*.log
+*.db
+*.sqlite
+*.sqlite3
+.DS_Store
+Thumbs.db

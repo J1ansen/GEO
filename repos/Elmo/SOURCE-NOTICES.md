@@ -1,0 +1,9 @@
+# GEO integration provenance
+
+- Elmo: MIT, repository license retained.
+- Store-fact comparison: port/adaptation of the user-supplied `GEO.rar`, SHA-256 `f54e05ae7b390f485eaca07a0c1040c5d77a98d5934a721c1444039124c538aa`, `restaurant-geo-audit/src/audit_restaurant_profiles.py`. The original remains in `../../sources/colleague_geo_20261013/`. Text/address/phone/URL normalization and field-by-field comparison structure were adapted to TypeScript in `packages/lib/src/restaurants/geo/compare.ts`. This private source is used for the requested internal project; no independent open-source license is asserted for it.
+- Repairs: preserve price symbols, explicit unknown versus absent versus failed fields, evidence hash validation and freshness, store/listing/version-scoped IDs, no last-listing overwrite, structured overnight hours, explicit unsupported/semantic coverage. URL schemes are retained because HTTP and HTTPS can behave differently. Merchant facts are never inferred from snapshots.
+- GEO Optimizer: MIT, local upstream `../geo-optimizer-skill`, revision `0e1ffc88aa2300c81a4596283c061df8bb0c5f56`. The adapter calls its secure HTTP utilities and website audit API without weakening URL, redirect, DNS-pinning or response-size checks.
+- GEORank: Apache-2.0, local upstream `../GEORank`, revision `424a0cf92b37ad63c94ae9dc6f39745189ab7c94`. Page text/title/first-80-link extraction contract from `backend/app/tasks/crawl.py:_crawl_page` is adapted to static HTML parsing. Celery/database/browser framework and generated demand scores are not included. Original Apache license is supplied with the adapter.
+
+The Excel is user-provided operational data. Its filename, worksheet/cell references and SHA-256 are retained in the imported bank. Historical observations never qualify as controlled live test results.
